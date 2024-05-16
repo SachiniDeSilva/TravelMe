@@ -6,8 +6,14 @@ import Footer from "e:/React/TravelMe/fontend/src/components/Footer/Footer";
 import Router from '../../Router/Router';
 
 const Layout = () => {
-  return
-    <div>Layout</div>
+  return<>
+  <Header/>
+  <Router/>
+  <Footer/>
+  
+  
+  </>
+    
   
 }
 
