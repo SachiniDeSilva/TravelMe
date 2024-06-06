@@ -1,20 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react'; // No need to import Component separately if not used
 
-import Header from "e:/React/TravelMe/fontend/src/components/Header/Header";
-import Footer from "e:/React/TravelMe/fontend/src/components/Footer/Footer";
+import Footer from '../Footer/Footer';
 
-import Router from '../../Router/Router';
+import Header from '../Header/Header'; // Adjusted the import path relative to the current file
+
+import Router from '../../router/Router';
 
 const Layout = () => {
-  return<>
-  <Header/>
-  <Router/>
-  <Footer/>
-  
-  
-  </>
-    
-  
+  return (
+    <>
+      <Header />
+      <Router />
+      <Footer />
+    </>
+  );
 }
 
 export default Layout;
