@@ -14,9 +14,12 @@
   padding: 0;
   box-sizing: border-box;
   background-color: var(--heading-color);
+ 
+
 }
 body{
   font-family:sans-serif ;
+ 
 }
 
 section{
@@ -42,7 +45,7 @@ ul{
 }
 
 .primary_btn{
-  background: var(--secon-color) !important;
+ background: var(--secon-color) !important;
   border: none !important;
   border-radius: 50px !important;
   padding: 0.4rem 1.5rem !important;
@@ -50,8 +53,10 @@ ul{
 }
 .primary_btn a{
   font-size: 1.1rem;
+  font-weight: 500;
   text-decoration: none;
   color: #fff;
+  background-color: var(--secon-color);
 
 }
 .primary_btn a:hover{
@@ -60,7 +65,7 @@ ul{
 
 .secondary_btn{
   background: transparent !important;
-  color: #0b2727 !important;
+  color: var(--secon-color) !important;
   border: none !important;
   font-weight: 500 !important;
 
@@ -69,7 +74,7 @@ ul{
 .secondary_btn a{
   text-decoration: none;
   font-size: 1.1rem;
-  color: var(--heading-color);
+  color: var(--text-color);
 }
 
 .secondary_btn a:hover{
