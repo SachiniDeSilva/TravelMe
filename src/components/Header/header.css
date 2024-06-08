@@ -1,0 +1,43 @@
+:root{
+    --primary-color: #ff7e01;
+    --secon-color: #faa935;
+    --heading-color:#0b0b0c;
+    --text-color : #f2f3f7;
+  
+  }
+
+.header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 0;
+    
+}
+.logo img{
+    width: 50%;
+}
+.menu{
+    margin-bottom:0 ;
+}
+
+
+.nav_item a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.nav_item a:hover{
+    color: var(--secon-color);
+}
+
+
+.nav_item a.active_link{
+    color: var(--secon-color);
+}
+ 
+
+.mobile_menu{
+    font-size: 1.3rem;
+    color: var(--text-color);
+}
