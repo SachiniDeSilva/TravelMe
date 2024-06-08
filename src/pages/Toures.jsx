@@ -11,4 +11,4 @@ function Toures() {
   );
 };
 
-export default Toures
+export default Toures;
