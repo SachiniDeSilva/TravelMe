@@ -40,4 +40,5 @@
 .mobile_menu{
     font-size: 1.3rem;
     color: var(--text-color);
+    display: none;
 }
