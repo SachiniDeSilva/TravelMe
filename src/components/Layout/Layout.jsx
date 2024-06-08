@@ -1,17 +1,19 @@
-import React from 'react'; // No need to import Component separately if not used
+import React from 'react';
+
 
 import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 
-import Header from '../Header/Header'; // Adjusted the import path relative to the current file
-
-import Router from '../../router/Router';
+import Routes from '../../router/Routes'; 
 
 const Layout = () => {
   return (
     <>
-      <Header />
-      <Router />
-      <Footer />
+     
+        <Header />
+        <Routes /> 
+        <Footer />
+     
     </>
   );
 }

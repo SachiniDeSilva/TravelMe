@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import {  Routes, Route, Navigate } from 'react-router-dom';
 
 import Home from '../pages/Home';
 import Login from '../pages/Login';
@@ -10,7 +10,6 @@ import SearchResultList from '../pages/SearchResultList';
 
 const AppRouter = () => {
   return (
-    <Router>
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
@@ -20,7 +19,7 @@ const AppRouter = () => {
         <Route path="/toures/:id" element={<TourDetails />} />
         <Route path="/toures/search" element={<SearchResultList />} />
       </Routes>
-    </Router>
+   
   );
 };
 
