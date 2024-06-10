@@ -12,6 +12,7 @@
     box-shadow: rgba(106, 105, 105, 0.15)0px 48px 100px 0px;
     width: max-content;
     margin-top: 50px;
+    color: #f2f3f7;
 }
 .form_group span{
     font-size: 1.8rem;
