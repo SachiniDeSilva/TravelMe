@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/home.css';
 import { Container,Row,Col, Form } from 'reactstrap';
-import image1 from '../assets/OIP (2).jpg';
+import image1 from '../assets/OIP (13).jpg';
 import image2 from '../assets/OIP (6).jpg';
 import video1 from '../assets/hero.mp4';
 import world from '../assets/OIP.jpg'
@@ -29,7 +29,7 @@ const Home = () => {
 
         <Col lg='2'>
         <div className="hero_img-box">
-          <video src={video1}alt="" />
+          <video src={video1}alt="" controls/>
         </div>
         </Col>
 
