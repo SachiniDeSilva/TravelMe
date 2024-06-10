@@ -6,6 +6,8 @@ import image2 from '../assets/OIP (6).jpg';
 import video1 from '../assets/hero.mp4';
 import world from '../assets/OIP.jpg'
 import Subtitle from '../shared/Subtitle';
+
+import SearchBar from '../shared/SearchBar';
 const Home = () => {
   return <>
   <section>
@@ -38,6 +40,7 @@ const Home = () => {
           <img src={image2}alt="" />
         </div>
         </Col>
+        <SearchBar/>
       </Row>
     </Container>
   </section>
