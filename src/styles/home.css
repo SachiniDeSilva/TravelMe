@@ -29,3 +29,11 @@ height: 2.3rem;
     line-height: 2rem;
     color: var(--sectext-color);
 }
+.hero_img-box img, .hero_img-box video{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--secon-color);
+    object-fit: cover;
+
+}
