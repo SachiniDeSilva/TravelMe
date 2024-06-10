@@ -4,7 +4,7 @@ import { Container,Row,Col, Form } from 'reactstrap';
 import image1 from '../assets/OIP (13).jpg';
 import image2 from '../assets/OIP (6).jpg';
 import video1 from '../assets/hero.mp4';
-import world from '../assets/OIP.jpg'
+import world from '../assets/OIP__1_-removebg-preview.png'
 import Subtitle from '../shared/Subtitle';
 
 import SearchBar from '../shared/SearchBar';
