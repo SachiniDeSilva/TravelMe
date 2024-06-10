@@ -28,13 +28,13 @@ const Home = () => {
         </Col>
 
         <Col lg='2'>
-        <div className="hero_img-box">
+        <div className="hero_img-box mt-4">
           <video src={video1}alt="" controls/>
         </div>
         </Col>
 
         <Col lg='2'>
-        <div className="hero_img-box">
+        <div className="hero_img-box mt-5">
           <img src={image2}alt="" />
         </div>
         </Col>
