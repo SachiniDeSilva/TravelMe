@@ -15,7 +15,7 @@ function SearchBar() {
             </FormGroup>
 
             <FormGroup className='d-flex gap-3 form_group form_group-fast '>
-                <span><i className='ri-map-time-line'></i></span>
+                <span><i className='ri-time-line'></i></span>
                 <div>
                     <h6>Destination</h6>
                     <input type="number" placeholder='Distance k/m'/>
@@ -30,6 +30,9 @@ function SearchBar() {
                     <input type="number" placeholder='0'/>
                 </div>
             </FormGroup>
+            <span className="search_icon" type='submit'>
+                <i className='ri-search-line'></i>
+            </span>
         </Form>
     </div>
    </Col>
