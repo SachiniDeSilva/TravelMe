@@ -21,6 +21,23 @@ const Home = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus itaque quisquam esse laborum asperiores, error repellat voluptate, deserunt hic, eum fugit molestiae optio. Laborum atque earum magni totam, nam odit.</p>
           </div>
         </Col>
+        <Col lg='2'>
+        <div className="hero_img-box">
+          <img src={image1}alt="" />
+        </div>
+        </Col>
+
+        <Col lg='2'>
+        <div className="hero_img-box">
+          <video src={video1}alt="" />
+        </div>
+        </Col>
+
+        <Col lg='2'>
+        <div className="hero_img-box">
+          <img src={image2}alt="" />
+        </div>
+        </Col>
       </Row>
     </Container>
   </section>
