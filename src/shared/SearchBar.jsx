@@ -14,6 +14,10 @@ const searchHandler =()=>{
     const disance = distanceRef.current.value
     const maxGroup = maxGroupRef.current.value
 
+
+    if(location ==''|| disance == ' ' || maxGroup ==''){
+        return alert ('All fields are required!')
+    }
 }
 
   return (
