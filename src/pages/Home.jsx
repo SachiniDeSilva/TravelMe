@@ -44,7 +44,16 @@ const Home = () => {
       </Row>
     </Container>
   </section>
-  
+  <section>
+    <Container>
+      <Row>
+        <Col lg='3'>
+        <h5 className="services_subtitle">What we serve</h5>
+        <h2 className="setvice_title">We offer our best service</h2>
+        </Col>
+      </Row>
+    </Container>
+  </section>
   </>
 }
 
