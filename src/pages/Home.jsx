@@ -7,7 +7,9 @@ import video1 from '../assets/hero.mp4';
 import world from '../assets/OIP__1_-removebg-preview.png'
 import Subtitle from '../shared/Subtitle';
 
+import Service from '../Service/Service';
 import SearchBar from '../shared/SearchBar';
+
 const Home = () => {
   return <>
   <section>
@@ -44,7 +46,17 @@ const Home = () => {
       </Row>
     </Container>
   </section>
-  
+  <section>
+    <Container>
+      <Row>
+        <Col lg='3'>
+        <h5 className="services_subtitle">What we serve</h5>
+        <h2 className="setvice_title">We offer our best service</h2>
+        </Col>
+        <Service/>
+      </Row>
+    </Container>
+  </section>
   </>
 }
 
