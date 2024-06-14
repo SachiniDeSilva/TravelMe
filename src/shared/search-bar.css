@@ -16,7 +16,7 @@
 }
 .form_group span{
     font-size: 1.8rem;
-    color: var(--primary-color);
+    color:  #ee6e6e;
 }
 .form_group input{
     border: none;
@@ -39,8 +39,8 @@
 .search_icon i{
 
 font-size: 1.6rem;
-padding: o.5rem;
-background: var(--primary-color);
+padding: 0.5rem;
+background: var(--secon-color);
 color: #fff;
 border-radius: 10px 5px 10px 5px;
 cursor: pointer;

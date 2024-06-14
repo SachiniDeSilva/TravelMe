@@ -2,9 +2,9 @@ import React from 'react';
 import ServiceCard from './ServiceCard';
 import { Col } from 'reactstrap';
 
-import weatherImag from '../assets/'
-import guidImag from '../assets/'
-import customizationImag from '../assets/'
+import weatherImag from '../assets/weather.png'
+import guidImag from '../assets/guide.png'
+import customizationImag from '../assets/customization.png'
 
 const serviceData =[
     {
@@ -15,13 +15,13 @@ const serviceData =[
     },
     {
         imgUrl :guidImag,
-       title: "Calculatr Weather",
+       title: "Best Tour Guid",
        desc:"lorem20"
       
     },
     {
         imgUrl :customizationImag,
-       title: "Best Tour Guide",
+       title: "Customization",
        desc:"lorem20"
       
     },
