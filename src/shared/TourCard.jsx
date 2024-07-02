@@ -1,6 +1,7 @@
 import React from 'react';
 import {Card, CardBody} from 'reactstrap';
 import {Link} from 'react-router-dom';
+import "./tour-card.css"
 
 
 
@@ -30,9 +31,12 @@ const {id, title, city,photo, price, featured, avgRating, reviews} = tour
           </span>
 
         </div>
-        <h5 className="tour_title"><Link to={'/tour/${id}'}>{title}</Link></h5>
+        <h5 className="tour_title"><Link to={'/tours/${id}'}>{title}</Link></h5>
         <div className="card_bottom d-flex align-items-center justify-content-between mt-3"></div>
-        <h5>Rs.{price}</h5>
+        <h5>Rs.{price} <span>/per person</span></h5>
+        <button className="btn booking_btn">
+          <Link to={'/tours/${id}'}>Show now</Link>
+        </button>
       </CardBody>
     </div>
   );
