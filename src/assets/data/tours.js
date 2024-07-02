@@ -2,7 +2,7 @@ import tourImg01 from "../OIP (2).jpg";
 import tourImg02 from "../R (1).jpg";
 import tourImg03 from "../R (2).jpg";
 import tourImg04 from "../R.jpg";
-import tourImg05 from "../OIP (11).jpg";
+import tourImg05 from "../OIP (7).jpg";
 import tourImg06 from "../OIP (5).jpg";
 import tourImg07 from "../OIP (3).jpg";
 
