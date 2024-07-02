@@ -12,7 +12,7 @@
 }
 .card{
     border: none !important;
-    box-shadow: rgba(247, 240, 240, 0.475) 0px 18px 50px -10px;
+    box-shadow: rgba(247, 240, 240, 0.192) 0px 18px 50px -10px;
 }
 
 .tour_img{
@@ -70,6 +70,12 @@
     font-size: 1.1rem;
     font-weight: 700;
 }
+.card_bottom h5 span{
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: .8rem;
+}
+
 .card{
     width: 300px;   
 }
@@ -77,15 +83,23 @@
 .card_body{
     position: relative;
 }
+
 .booking_btn{
+    background-color: var(--secon-color) !important;
     position: absolute;
     bottom: 13px;
     right: 10px;
-    padding: 10px 20px;
+    padding: 0.2px 0.5px !important ;
+    cursor: pointer;
+    border: none;
 }
 
-.card_bottom h5 span{
-    font-weight: 500;
-    color: var(--text-color);
-    font-size: .8rem;
+
+.booking_btn a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: #fff;
+}
+.booking_btn a:hover{
+    color: #fff;
 }
