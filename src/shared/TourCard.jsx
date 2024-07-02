@@ -33,8 +33,9 @@ const {id, title, city,photo, price, featured, avgRating, reviews} = tour
 
         </div>
         <h5 className="tour_title"><Link to={'/tours/${id}'}>{title}</Link></h5>
-        <div className="card_bottom d-flex align-items-center justify-content-between mt-3"></div>
-        <h5>Rs.{price} <span>/per person</span></h5>
+
+        <div className="card_bottom d-flex align-items-center justify-content-between mt-3">
+        <h5>Rs.{price} <span>/per person</span></h5></div>
         <button className="btn booking_btn">
           <Link to={'/tours/${id}'}>Show now</Link>
         </button>
