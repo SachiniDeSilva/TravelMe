@@ -1,19 +1,19 @@
-import tourImg01 from "../sigiriya.jpg";
+import tourImg01 from "../madolsima.jpg";
 import tourImg02 from "../R (1).jpg";
 import tourImg03 from "../R (2).jpg";
 import tourImg04 from "../R.jpg";
-import tourImg05 from "../OIP (13).jpg";
+import tourImg05 from "../hunu gal pokuna.jpg";
 import tourImg06 from "../OIP (5).jpg";
 import tourImg07 from "../OIP (3).jpg";
-import tourImg08 from "../ambuluwawa.jpg";
+import tourImg08 from "../ravana pool.jpg";
 import tourImg09 from "../awkana.jpg";
-import tourImg10 from "../hunu gal pokuna.jpg";
-import tourImg11 from "../madolsima.jpg";
-import tourImg07 from "../mahiyanganaya.jpg";
-import tourImg07 from "../maligawa.jpg";
-import tourImg07 from "../muthukandiya.jpg";
-import tourImg07 from "../wangedigala.jpg";
-import tourImg07 from "../sri.jpg";
+import tourImg10 from "../sigiriya.jpg";
+import tourImg11 from "../f7895867a96ca799d075d476214d3a74.jpg";
+import tourImg12 from "../mahiyanganaya.jpg";
+import tourImg13 from "../maligawa.jpg";
+import tourImg14 from "../muthukandiya.jpg";
+import tourImg15 from "../wangedigala.jpg";
+import tourImg16 from "../sri.jpg";
 
 
 
@@ -159,7 +159,7 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg08,
     featured: false,
   },
 ];
