@@ -1,10 +1,21 @@
-import tourImg01 from "../OIP (2).jpg";
+import tourImg01 from "../sigiriya.jpg";
 import tourImg02 from "../R (1).jpg";
 import tourImg03 from "../R (2).jpg";
 import tourImg04 from "../R.jpg";
 import tourImg05 from "../OIP (13).jpg";
 import tourImg06 from "../OIP (5).jpg";
 import tourImg07 from "../OIP (3).jpg";
+import tourImg08 from "../ambuluwawa.jpg";
+import tourImg09 from "../awkana.jpg";
+import tourImg10 from "../hunu gal pokuna.jpg";
+import tourImg11 from "../madolsima.jpg";
+import tourImg07 from "../mahiyanganaya.jpg";
+import tourImg07 from "../maligawa.jpg";
+import tourImg07 from "../muthukandiya.jpg";
+import tourImg07 from "../wangedigala.jpg";
+import tourImg07 from "../sri.jpg";
+
+
 
 const tours = [
   {
