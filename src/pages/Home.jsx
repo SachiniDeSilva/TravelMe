@@ -6,6 +6,7 @@ import image2 from '../assets/OIP (6).jpg';
 import video1 from '../assets/hero.mp4';
 import world from '../assets/OIP__1_-removebg-preview.png'
 import Subtitle from '../shared/Subtitle';
+import FeaturedToureList from '../components/Featured-tour/FeaturedToureList';
 
 import Service from '../Service/Service';
 import SearchBar from '../shared/SearchBar';
@@ -63,6 +64,7 @@ const Home = () => {
     <Col lg='12' className='mb-5'>
     <Subtitle subtitle={'Explore'}/>
     <h2 className="featured_tour-title">Our Featured Tours</h2></Col>
+    <FeaturedToureList/>
   </Row>
 </section>
 

@@ -56,3 +56,9 @@ height: 2.3rem;
     color: var(--sectext-color);
     font-weight: 500;
 }
+
+.featured_tour-title{
+    color: var(--text-color);
+    font-size: 2.3rem;
+    font-weight: 500;
+}
