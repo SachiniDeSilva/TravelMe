@@ -59,7 +59,7 @@ const Home = () => {
     </Container>
   </section>
 {/*feature*/}
-<section>
+<section className='feach'>
   <Row>
     <Col lg='12' className='mb-5'>
     <Subtitle subtitle={'Explore'}/>

@@ -12,8 +12,9 @@ const {id, title, city,photo, price, featured, avgRating, reviews} = tour
 
 
   return (
-    <div className='tour_card'>
-      <Card>
+   
+    <div className='tour_card '>
+      <Card className='card'>
         <div className="tour_img">
           <img src={photo} alt="tour_img" />
           <span>Featured</span>
@@ -41,6 +42,7 @@ const {id, title, city,photo, price, featured, avgRating, reviews} = tour
       </Card>
 
     </div>
+   
   );
 };
 
