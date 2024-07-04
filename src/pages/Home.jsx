@@ -7,7 +7,7 @@ import video1 from '../assets/hero.mp4';
 import world from '../assets/OIP__1_-removebg-preview.png'
 import Subtitle from '../shared/Subtitle';
 import FeaturedToureList from '../components/Featured-tour/FeaturedToureList';
-import experienceImg from '../assets/OIP (11).jpg'
+import experienceImg from '../assets/OIP__11_-removebg-preview.png'
 
 import Service from '../Service/Service';
 import SearchBar from '../shared/SearchBar';
