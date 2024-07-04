@@ -141,6 +141,36 @@ const Home = () => {
     </Row>
   </Container>
 </section>
+
+{/*Gallery section*/}
+
+<section>
+<Container>
+<Row>
+  <Col lg='12'>
+  <Subtitle subtitle={'Gallery'}/>
+
+  <div className="gallery_title">
+    Visit our customers tour Gallery
+  </div>
+  </Col>
+</Row>
+
+
+
+</Container>
+
+
+
+</section>
+
+
+
+
+
+
+
+
   </>
 }
 

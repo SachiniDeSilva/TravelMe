@@ -74,7 +74,7 @@ ul{
 .secondary_btn a{
   text-decoration: none;
   font-size: 1.1rem;
-  color: #fff;
+  color: var(--text-color);
 }
 
 .secondary_btn a:hover{
@@ -85,12 +85,12 @@ ul{
   background: var(--secon-color);
   font-family: var(subtit);
   width: max-content;
-  padding: 0px 0.5rem;
+  padding: 0px 0.5rem .5rem .5rem;
   padding-right: 1rem;
 
 
   border-radius: 50px;
   font-weight: 500;
   font-size: 1.7rem;
-  color: var(--text-color);
+  color: #fff;
 }
