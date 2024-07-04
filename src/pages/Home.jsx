@@ -154,6 +154,8 @@ const Home = () => {
     Visit our customers tour Gallery
   </div>
   </Col>
+  <Col lg='12'>
+  </Col>
 </Row>
 
 
