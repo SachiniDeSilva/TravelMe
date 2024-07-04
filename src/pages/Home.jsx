@@ -9,8 +9,10 @@ import Subtitle from '../shared/Subtitle';
 import FeaturedToureList from '../components/Featured-tour/FeaturedToureList';
 import experienceImg from '../assets/OIP__11_-removebg-preview.png'
 
+
 import Service from '../Service/Service';
 import SearchBar from '../shared/SearchBar';
+import MasonryImageGallery from '../components/Image_gallery/MasonryImagesGallery.jsx';
 
 const Home = () => {
   return <>
@@ -155,6 +157,7 @@ const Home = () => {
   </div>
   </Col>
   <Col lg='12'>
+    <MasonryImageGallery/>
   </Col>
 </Row>
 
