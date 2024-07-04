@@ -109,7 +109,7 @@ const Home = () => {
 <section>
   <Container>
     <Row>
-      <Col lg='6'></Col>
+      <Col lg='6'>
       <div className="experience_content">
         <Subtitle subtitle={'Experience'}/>
 
@@ -132,6 +132,7 @@ const Home = () => {
 </div>
 
       </div>
+      </Col>
       <Col lg='6'>
       <div className="experience_img">
         <img src={experienceImg} alt="" />
