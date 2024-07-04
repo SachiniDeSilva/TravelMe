@@ -7,12 +7,18 @@ import video1 from '../assets/hero.mp4';
 import world from '../assets/OIP__1_-removebg-preview.png'
 import Subtitle from '../shared/Subtitle';
 import FeaturedToureList from '../components/Featured-tour/FeaturedToureList';
+import experienceImg from '../assets/OIP (11).jpg'
 
 import Service from '../Service/Service';
 import SearchBar from '../shared/SearchBar';
 
 const Home = () => {
   return <>
+
+
+
+
+  
   <section>
     <Container>
       <Row>
@@ -47,6 +53,14 @@ const Home = () => {
       </Row>
     </Container>
   </section>
+
+
+
+
+
+
+
+
   <section>
     <Container>
       <Row>
@@ -58,6 +72,14 @@ const Home = () => {
       </Row>
     </Container>
   </section>
+
+
+
+
+
+
+
+
 {/*feature*/}
 <section className='feach'>
   <Row>
@@ -67,6 +89,21 @@ const Home = () => {
     <FeaturedToureList/>
   </Row>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {/*experience*/}
 
 <section>
@@ -95,7 +132,11 @@ const Home = () => {
 </div>
 
       </div>
-      <Col lg='6'></Col>
+      <Col lg='6'>
+      <div className="experience_img">
+        <img src={experienceImg} alt="" />
+      </div>
+      </Col>
     </Row>
   </Container>
 </section>
