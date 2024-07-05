@@ -169,7 +169,17 @@ const Home = () => {
 
 </section>
 
-
+{/*testimotional*/}
+<section>
+  <Container>
+    <Row>
+      <Col lg ='12'>
+      <Subtitle subtitle={'Fans Love'}/>
+      <h2 className="testimotional_title">What Our fans say about us</h2>
+      </Col>
+    </Row>
+  </Container>
+</section>
 
 
 
