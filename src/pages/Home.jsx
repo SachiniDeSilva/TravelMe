@@ -6,12 +6,21 @@ import image2 from '../assets/OIP (6).jpg';
 import video1 from '../assets/hero.mp4';
 import world from '../assets/OIP__1_-removebg-preview.png'
 import Subtitle from '../shared/Subtitle';
+import FeaturedToureList from '../components/Featured-tour/FeaturedToureList';
+import experienceImg from '../assets/OIP__11_-removebg-preview.png'
+
 
 import Service from '../Service/Service';
 import SearchBar from '../shared/SearchBar';
+import MasonryImageGallery from '../components/Image_gallery/MasonryImagesGallery.jsx';
 
 const Home = () => {
   return <>
+
+
+
+
+  
   <section>
     <Container>
       <Row>
@@ -46,6 +55,14 @@ const Home = () => {
       </Row>
     </Container>
   </section>
+
+
+
+
+
+
+
+
   <section>
     <Container>
       <Row>
@@ -57,6 +74,118 @@ const Home = () => {
       </Row>
     </Container>
   </section>
+
+
+
+
+
+
+
+
+{/*feature*/}
+<section className='feach'>
+  <Row>
+    <Col lg='12' className='mb-5'>
+    <Subtitle subtitle={'Explore'}/>
+    <h2 className="featured_tour-title">Our Featured Tours</h2></Col>
+    <FeaturedToureList/>
+  </Row>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/*experience*/}
+
+<section>
+  <Container>
+    <Row>
+      <Col lg='6'>
+      <div className="experience_content">
+        <Subtitle subtitle={'Experience'}/>
+
+        <h2>With Our All Experience <br/> we will serve you</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil iure autem magni exercitationem reprehenderit nulla accusamus beatae eaque totam nesciunt?</p>
+      </div>
+      <div className="counter_wrapper d-flex align-items-center gap-5">
+
+<div className="counter_box">
+  <span>12k+</span>
+  <h6>Successfull Trip</h6>
+</div>
+<div className="counter_box">
+  <span>2k+</span>
+  <h6>Regular clients</h6>
+</div>
+<div className="counter_box">
+  <span>10</span>
+  <h6>Years experience</h6>
+</div>
+
+      </div>
+      </Col>
+      <Col lg='6'>
+      <div className="experience_img">
+        <img src={experienceImg} alt="" />
+      </div>
+      </Col>
+    </Row>
+  </Container>
+</section>
+
+{/*Gallery section*/}
+
+<section>
+<Container>
+<Row>
+  <Col lg='12'>
+  <Subtitle subtitle={'Gallery'}/>
+
+  <div className="gallery_title">
+    Visit our customers tour Gallery
+  </div>
+  </Col>
+  <Col lg='12'>
+    <MasonryImageGallery/>
+  </Col>
+</Row>
+
+
+
+</Container>
+
+
+
+</section>
+
+{/*testimotional*/}
+<section>
+  <Container>
+    <Row>
+      <Col lg ='12'>
+      <Subtitle subtitle={'Fans Love'}/>
+      <h2 className="testimotional_title">What Our fans say about us</h2>
+      </Col>
+    </Row>
+  </Container>
+</section>
+
+
+
+
+
+
   </>
 }
 
