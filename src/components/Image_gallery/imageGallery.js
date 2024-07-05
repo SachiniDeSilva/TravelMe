@@ -19,6 +19,8 @@ import galleryImage14 from '../../assets/sigiriya.jpg'
 import galleryImage19 from '../../assets/ad.jpg'
 import galleryImage20 from '../../assets/l.jpg'
 import galleryImage21 from '../../assets/we.jpg'
+import galleryImage22 from '../../assets/hor.jpg'
+import galleryImage23 from '../../assets/el.jpg'
 
 
 
@@ -33,16 +35,24 @@ galleryImage6,
 galleryImage7,
 galleryImage8,
 galleryImage9,
-galleryImage14,
+
 galleryImage10,
 galleryImage11,
 
 
 
 galleryImage13,
-galleryImage21,
 galleryImage20,
+
 galleryImage19,
+galleryImage23,
+galleryImage21,
+
+
+
+
+
+
 
 
 
