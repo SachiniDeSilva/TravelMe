@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
-import ava01 from '../../assets/madolsima.jpg'
-import ava02 from '../../assets/42 Lighthouse.jpg'
-import ava03 from '../../assets/muthukandiya.jpg'
+import ava01 from '../../assets/Follow-These-Steps-for-a-Flawless-Professional-Profile-Picture.jpg'
+import ava02 from '../../assets/profile2.jpg'
+import ava03 from '../../assets/profile3.jpg'
 
 const Testimonials = () => {
   return (
