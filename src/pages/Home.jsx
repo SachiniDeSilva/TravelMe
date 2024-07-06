@@ -175,7 +175,7 @@ const Home = () => {
     <Row>
       <Col lg ='12'>
       <Subtitle subtitle={'Fans Love'}/>
-      <h2 className="testimotional_title">What Our fans say about us</h2>
+      <h2 className="testimotional_title ">What Our fans say about us</h2>
       </Col>
       <Col lg='12'>
       <Testimonials/></Col>
