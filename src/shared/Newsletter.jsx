@@ -5,18 +5,18 @@ import maleTourist from '../assets/OIP__11_-removebg-preview.png'
 
 const Newsletter = () => {
   return (
-  <section>
-    <Container>
+  <section className='newsletter'>
+    <Container >
         <Row>
             <Col lg='6'>
-            <div className="newsletter_content">
+            <div className="newsletter_content text-black">
                 <h2>
                     Subscribe now to get useful traveling information
                 </h2>
 
                 <div className="newsletter_input">
                     <input type="email" placeholder='Enter Your email' />
-                    <button className="btn newsletter_btn">Subscribe</button>
+                    <button className="btn newsletter_btn text-black">Subscribe</button>
                 </div>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam nostrum doloremque dolorum ullam ipsa, fugit labore architecto at iure nemo?</p>
 
@@ -25,12 +25,13 @@ const Newsletter = () => {
 
             </div>
             </Col>
-            <div className="newsletter_img">
-                <img src={maleTourist} alt="" />
-            </div>
+           
 
 
             <Col lg='6'>
+            <div className="newsletter_img">
+                <img src={maleTourist} alt="" />
+            </div>
             </Col>
         </Row>
     </Container>
