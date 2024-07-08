@@ -7,7 +7,7 @@ import video1 from '../assets/video.mp4';
 import world from '../assets/OIP__1_-removebg-preview.png'
 import Subtitle from '../shared/Subtitle';
 import FeaturedToureList from '../components/Featured-tour/FeaturedToureList';
-import experienceImg from '../assets/OIP__11_-removebg-preview.png'
+import experiencev from '../assets/globle.png'
 
 
 import Service from '../Service/Service';
@@ -136,8 +136,8 @@ const Home = () => {
       </div>
       </Col>
       <Col lg='6'>
-      <div className="experience_img">
-        <img src={experienceImg} alt="" />
+      <div className="experience_img mt-4">
+        <img className="ex_img w-100 " src={experiencev} alt="" />
       </div>
       </Col>
     </Row>
