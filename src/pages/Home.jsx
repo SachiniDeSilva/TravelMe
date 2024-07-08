@@ -3,17 +3,17 @@ import '../styles/home.css';
 import { Container,Row,Col, Form } from 'reactstrap';
 import image1 from '../assets/OIP (13).jpg';
 import image2 from '../assets/OIP (6).jpg';
-import video1 from '../assets/hero.mp4';
+import video1 from '../assets/video.mp4';
 import world from '../assets/OIP__1_-removebg-preview.png'
 import Subtitle from '../shared/Subtitle';
 import FeaturedToureList from '../components/Featured-tour/FeaturedToureList';
-import experienceImg from '../assets/OIP__11_-removebg-preview.png'
+import experiencev from '../assets/globle.png'
 
 
 import Service from '../Service/Service';
 import SearchBar from '../shared/SearchBar';
 import MasonryImageGallery from '../components/Image_gallery/MasonryImagesGallery.jsx';
-
+import Testimonials from '../components/Testimonial/Testimonials.jsx';
 const Home = () => {
   return <>
 
@@ -136,8 +136,8 @@ const Home = () => {
       </div>
       </Col>
       <Col lg='6'>
-      <div className="experience_img">
-        <img src={experienceImg} alt="" />
+      <div className="experience_img mt-4">
+        <img className="ex_img w-100 " src={experiencev} alt="" />
       </div>
       </Col>
     </Row>
@@ -175,8 +175,10 @@ const Home = () => {
     <Row>
       <Col lg ='12'>
       <Subtitle subtitle={'Fans Love'}/>
-      <h2 className="testimotional_title">What Our fans say about us</h2>
+      <h2 className="testimotional_title ">What Our fans say about us</h2>
       </Col>
+      <Col lg='12'>
+      <Testimonials/></Col>
     </Row>
   </Container>
 </section>

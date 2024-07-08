@@ -28,3 +28,8 @@
 .service_item h5 , .service_item p{
     color: var(--sectext-color);
 }
+.service_img img {
+    width: 100%; /* Ensures the image fits within the container */
+    height: auto; /* Maintains aspect ratio */
+   background-color: var(--secon-color); /* Ensures the image itself is round */
+}
