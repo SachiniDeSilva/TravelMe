@@ -1,0 +1,46 @@
+
+:root{
+    --primary-color: #ff7e01;
+    --secon-color: #faa935;
+    --heading-color:#0b0b0c;
+    --text-color : #d6d8dd;
+  
+  }
+
+
+.footer{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer .logo img{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.footer .logo p{
+    color: var(--text-color);
+}
+.social_links span a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.footer_link-title{
+    color: var(--text-color);
+    margin-bottom:1rem ;
+}
+.footer_quick-links{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.backgrount_color{
+    background: var(--heading-color);
+}
+.footer_quick-links h6 span i{
+    color: var(--secon-color);
+    font-size: 1.1rem;
+}

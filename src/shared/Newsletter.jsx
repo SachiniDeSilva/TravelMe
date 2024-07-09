@@ -9,7 +9,7 @@ const Newsletter = () => {
     <Container >
         <Row>
             <Col lg='6'>
-            <div className="newsletter_content text-black">
+            <div  className="newsletter_content text-black">
                 <h2>
                     Subscribe now to get useful traveling information
                 </h2>

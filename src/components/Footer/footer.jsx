@@ -69,11 +69,11 @@ const Footer = () => {
     </div>
     </Col>
     <Col lg='3'>
-    <h5 className='footer_link_title'>Discover</h5>
-    <ListGroup className='footer_quick_links'>
+    <h5 className='footer_link-title'>Discover</h5>
+    <ListGroup className='footer_quick-links'>
       {
         quick_links.map((item, index)=>(
-          <ListGroupItem key={index} className='ps-0 border-0'>
+          <ListGroupItem  style={{ backgroundColor: '#0b0b0c' }} key={index} className='ps-0 border-0'>
             <Link to ={item.path}>{item.display}</Link>
           </ListGroupItem>
         ))
@@ -82,11 +82,11 @@ const Footer = () => {
     </ListGroup>
     </Col>
     <Col lg='3'>
-    <h5 className='footer_link_title'>Discover</h5>
-    <ListGroup className='footer_quick_links'>
+    <h5 className='footer_link-title'>Quick links</h5>
+    <ListGroup className="footer_quick-links">
       {
         quick_links2.map((item, index)=>(
-          <ListGroupItem key={index} className='ps-0 border-0'>
+          <ListGroupItem  style={{ backgroundColor: '#0b0b0c' }} key={index} className='ps-0 border-0'>
             <Link to ={item.path}>{item.display}</Link>
           </ListGroupItem>
         ))
@@ -94,7 +94,42 @@ const Footer = () => {
 
     </ListGroup>
     </Col>
-    <Col lg='3'></Col>
+    <Col lg='3'>
+    
+    <h5 className='footer_link-title'>Contact</h5>
+    <ListGroup className='footer_quick-links '>
+     
+          <ListGroupItem style={{ backgroundColor: '#0b0b0c' }}  className=' ps-0 border-0 d-flex align-items-center gap-3 '>
+            <h6 className="mb-0 d-flex align-items-center gap-2 text-white">
+              <span><i class="ri-map-pin-line"></i></span>
+              Address:
+            </h6>
+          
+           <p className='mb-0 text-white'>Colombo, Sri Lanka</p>
+          </ListGroupItem>
+       
+     
+     <ListGroupItem style={{ backgroundColor: '#0b0b0c' }}  className=' ps-0 border-0 d-flex align-items-center gap-3 '>
+
+       <h6 className="mb-0 d-flex align-items-center gap-2 text-white">
+         <span><i class="ri-mail-line"></i></span>
+         Email:
+       </h6>
+     
+      <p className='mb-0 text-white'>travelme@gmail.com</p>
+     </ListGroupItem>
+
+
+     <ListGroupItem style={{ backgroundColor: '#0b0b0c' }}  className=' ps-0 border-0 d-flex align-items-center gap-3 '>
+       <h6 className="mb-0 d-flex align-items-center gap-2 text-white">
+         <span><i class="ri-phone-fill"></i></span>
+         Phone:
+       </h6>
+     
+      <p className='mb-0 text-white'>+941198502384</p>
+     </ListGroupItem>
+    </ListGroup>
+    </Col>
   </Row>
 </Container>
     </footer>
