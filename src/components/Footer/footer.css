@@ -44,3 +44,7 @@
     color: var(--secon-color);
     font-size: 1.1rem;
 }
+.copyright{
+    color: var(--text-color);
+    font-size: 1rem;
+}

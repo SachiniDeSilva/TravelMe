@@ -40,6 +40,11 @@ const quick_links2 = [
 ]
 
 const Footer = () => {
+
+
+
+
+  const year = new Date().getFullYear
   return (
     <footer className='footer'>
 <Container>
@@ -100,7 +105,7 @@ const Footer = () => {
     <ListGroup className='footer_quick-links '>
      
           <ListGroupItem style={{ backgroundColor: '#0b0b0c' }}  className=' ps-0 border-0 d-flex align-items-center gap-3 '>
-            <h6 className="mb-0 d-flex align-items-center gap-2 text-white">
+            <h6 className="mb-0 d-flex align-items-center gap-2 text-gray">
               <span><i class="ri-map-pin-line"></i></span>
               Address:
             </h6>
@@ -111,7 +116,7 @@ const Footer = () => {
      
      <ListGroupItem style={{ backgroundColor: '#0b0b0c' }}  className=' ps-0 border-0 d-flex align-items-center gap-3 '>
 
-       <h6 className="mb-0 d-flex align-items-center gap-2 text-white">
+       <h6 className="mb-0 d-flex align-items-center gap-2 text-gray">
          <span><i class="ri-mail-line"></i></span>
          Email:
        </h6>
@@ -121,7 +126,7 @@ const Footer = () => {
 
 
      <ListGroupItem style={{ backgroundColor: '#0b0b0c' }}  className=' ps-0 border-0 d-flex align-items-center gap-3 '>
-       <h6 className="mb-0 d-flex align-items-center gap-2 text-white">
+       <h6 className="mb-0 d-flex align-items-center gap-2 text-gray">
          <span><i class="ri-phone-fill"></i></span>
          Phone:
        </h6>
@@ -130,6 +135,11 @@ const Footer = () => {
      </ListGroupItem>
     </ListGroup>
     </Col>
+
+    <Col lg='12'className='text-center pt-5'>
+<p className="copyright"> Copyright {year}, design nad develop. All rights reserved</p>
+    </Col>
+    
   </Row>
 </Container>
     </footer>
