@@ -60,7 +60,7 @@ ul{
 
 }
 .primary_btn a:hover{
-  color: i;
+  color: inherit;
 }
 
 .secondary_btn{

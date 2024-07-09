@@ -10,13 +10,12 @@
 
 
 .newsletter{
-    background-color: #cae5f4;
     padding: 0;
     margin-top: 3rem;
 }
 
 .newsletter_img img{
-    width: 30%;
+    width: 50%;
     height: auto;
 }
 .newsletter_content{
@@ -26,6 +25,7 @@
 .newsletter_content h2{
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    color: var(--text-color);
 }
 
 .newsletter_input{
@@ -49,12 +49,15 @@
 
 .newsletter_btn{
     padding: 0.5rem 1.5rem !important;
-    background: var(--secon-color);
-    color: #fff ;
+    background: var(--secon-color) !important;
+   
+ 
     font-size: 1.1rem !important;
+  
 }
 
+
 .newsletter_content p{
-    color: var(--heading-color);
+    color: var(--text-color);
     font-size: 1.1rem;
 }
