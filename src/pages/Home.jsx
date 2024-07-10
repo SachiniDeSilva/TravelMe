@@ -14,6 +14,7 @@ import Service from '../Service/Service';
 import SearchBar from '../shared/SearchBar';
 import MasonryImageGallery from '../components/Image_gallery/MasonryImagesGallery.jsx';
 import Testimonials from '../components/Testimonial/Testimonials.jsx';
+import Newsletter from '../shared/Newsletter.jsx';
 const Home = () => {
   return <>
 
@@ -183,7 +184,7 @@ const Home = () => {
   </Container>
 </section>
 
-
+<Newsletter/>
 
 
 

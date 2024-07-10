@@ -89,9 +89,10 @@
     position: absolute;
     bottom: 13px;
     right: 10px;
-    padding: 0.2px 0.5px !important ;
+    padding: 0.2px 0.5px  !important ;
     cursor: pointer;
     border: none;
+   
 }
 
 
@@ -102,4 +103,12 @@
 }
 .booking_btn a:hover{
     color: #fff;
+}
+
+.booking_btn .butn_back{
+    background-color: var(--secon-color);
+    
+    
+    
+
 }

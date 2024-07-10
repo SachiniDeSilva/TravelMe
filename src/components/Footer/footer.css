@@ -1,0 +1,74 @@
+
+:root{
+    --primary-color: #ff7e01;
+    --secon-color: #faa935;
+    --heading-color:#0b0b0c;
+    --text-color : #d6d8dd;
+  
+  }
+
+
+.footer{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer .logo img{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.footer .logo p{
+    color: var(--text-color);
+}
+.social_links a {
+    color: var(--text-color); /* Default color for icons */
+    font-size: 24px; /* Adjust icon size */
+    text-decoration: none;
+  }
+  
+  .social_links a:hover {
+    color: var(--secon-color); /* Color when hovering over the icon */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+    transition: transform 0.2s, color 0.2s; /* Smooth transition */
+  }
+  
+
+.footer_link-title{
+    color: var(--text-color);
+    margin-bottom:1rem ;
+}
+.footer_quick-links .list-group-item {
+    background-color: #0b0b0c; /* Background color */
+    color: #48494b; /* Text color */
+    transition: background-color 0.3s, color 0.3s;
+     /* Smooth transition */
+  }
+  
+  .footer_quick-links .list-group-item:hover {
+    background-color: #1a1a1c; /* Background color on hover */
+    color:var(--secon-color);
+     /* Text color on hover */
+  }
+  
+  .footer_quick-links .list-group-item a {
+    color: inherit; /* Inherit text color from parent */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer_quick-links .list-group-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+
+.backgrount_color{
+    background: var(--heading-color);
+}
+.footer_quick-links h6 span i{
+    color: var(--secon-color);
+    font-size: 1.1rem;
+}
+.copyright{
+    color: var(--text-color);
+    font-size: 1rem;
+}

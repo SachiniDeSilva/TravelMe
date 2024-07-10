@@ -41,7 +41,7 @@ const {totalRating,avgRating} =calculateAvgRating(reviews)
         <div className="card_bottom d-flex align-items-center justify-content-between mt-3">
         <h5>Rs.{price} <span>/per person</span></h5></div>
         <button className="btn booking_btn">
-          <Link to={'/tours/${id}'}>Show now</Link>
+          <Link  className=' butn_back' to={'/tours/${id}'}>Show now</Link>
         </button>
       </CardBody>
       </Card>
