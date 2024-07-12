@@ -1,0 +1,43 @@
+
+:root{
+    --primary-color: #ff7e01;
+    --secon-color: #faa935;
+    --heading-color:#0b0b0c;
+    --text-color : #f2f3f7;
+    --sectext-color:#d5d5d6;
+  
+  }
+
+
+
+.tour_content img{
+    width:100%;
+    border-radius: 0.5rem;
+    border-bottom: 2.5rem;
+}
+.tour_info{
+   
+    border-radius: .5rem;
+    border: 1px solid rgb(229,231,235);
+    padding: 2rem;
+}
+
+.tour_info span{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    font-style: 1rem;
+    color: var(--text-color);
+}
+.tour_info span i{
+    color: var(--heading-color);
+    font-size: 1.1rem;
+}
+.tour_extra-details{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    
+}
