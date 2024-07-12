@@ -3,18 +3,21 @@ import '../styles/tour-details.css'
 import { Container, Row, Col, Form, ListGroup } from 'react-bootstrap'
 import { useParams } from 'react-router-dom'
 import tourData from '../assets/data/tours'
+import calculateAvgRating from '../utils/avgRating'
 const TourDetails = () => {
 
 
 
-  const {id } =useParams()
+  const {id} = useParams()
 
 
 
-  const tour = tourData.find(tour.id === id)//call api and data from db
+  const tour = tourData.find((tour) => tour.id === id)//call api and data from db
 
-const {photo, title, desc, price, review, city, distance , maxGroupSize} = tour
+const {photo, title, desc, price, reviews, address,city, distance , maxGroupSize} = tour
 
+
+const {totalRating,avgRating} = calculateAvgRating(reviews)
   return (
     <>
     <section>
@@ -27,6 +30,18 @@ const {photo, title, desc, price, review, city, distance , maxGroupSize} = tour
 
             <div className="tour_info">
               <h2>{title}</h2>
+              <div className='d-flex align-items-cente gap-5'> 
+                
+          <span className='tour_rating d-flex align-items-center gap-1'>
+            <i class ="ri-star-fill" style={{'color':"var(--secondary-color)"}}></i>{calculateAvgRating === 0 ? null :avgRating}
+            {totalRating === 0 ? ('Not rated' ): ( <span>({reviews.length})</span>)}
+          </span>
+            
+
+            <span>
+              <i class="ri-map-pin-fill"></i>{address}
+            </span>
+                </div>
             </div>
           </div>
           </Col>
