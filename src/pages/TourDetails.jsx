@@ -51,6 +51,19 @@ const {totalRating,avgRating} = calculateAvgRating(reviews)
                 <h5>description</h5>
                 <p>{desc}</p>
             </div>
+            {/*=============== tour reviwes*/}
+            <div className="tour_reviews mt-4">
+              <h4>Reviews({reviews?.length}reviews)</h4>
+              <form >
+                <div className='d-flex align-items-center gap-3 mb-4 rating_group'>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                  <span><i class="ri-star-s-fill"></i></span>
+                </div>
+              </form>
+            </div>
           </div>
           </Col>
         </Row>
