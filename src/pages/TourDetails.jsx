@@ -48,6 +48,8 @@ const {totalRating,avgRating} = calculateAvgRating(reviews)
                   <span><i class='ri-money-dollar-circle-line'></i>${price}</span>
                   <span><i class='ri-group-line'></i>{maxGroupSize}</span>
                 </div>
+                <h5>description</h5>
+                <p>{desc}</p>
             </div>
           </div>
           </Col>
