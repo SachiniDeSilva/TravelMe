@@ -62,6 +62,12 @@ const {totalRating,avgRating} = calculateAvgRating(reviews)
                   <span><i class="ri-star-s-fill"></i></span>
                   <span><i class="ri-star-s-fill"></i></span>
                 </div>
+                <div className="review_input">
+                  <input type="text" placeholder='share your thought' />
+                  <button className='btn primary_btn text-white'type='submt'>
+                    Submit
+                  </button>
+                </div>
               </form>
             </div>
           </div>
