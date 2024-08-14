@@ -6,6 +6,7 @@ import SearchBar from './../shared/SearchBar';
 import Newsletter from './../shared/Newsletter';
 import tourData from '../assets/data/tours';
 import { Container, Row, Col } from 'reactstrap';
+import tours from '../assets/data/tours';
 
 function Toures() {
   const [pageCount, setPageCount] = useState(0);
@@ -32,7 +33,7 @@ function Toures() {
       <section className='pt-0'>
         <Container>
           <Row>
-            {tourData?.map(tour => (
+            {tourData?.map(tour=> (
               <Col lg='3' className='mb-4' key={tour.id}>
                 <TourCard tour={tour} />
               </Col>
@@ -62,3 +63,4 @@ function Toures() {
 };
 
 export default Toures;
+

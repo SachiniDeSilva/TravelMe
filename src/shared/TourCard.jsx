@@ -36,12 +36,12 @@ const {totalRating,avgRating} =calculateAvgRating(reviews)
            
 
         </div>
-        <h5 className="tour_title"><Link to={'/tours/${id}'}>{title}</Link></h5>
+        <h5 className="tour_title"><Link to={`/toures/${id}`}>{title}</Link></h5>
 
         <div className="card_bottom d-flex align-items-center justify-content-between mt-3">
         <h5>Rs.{price} <span>/per person</span></h5></div>
         <button className="btn booking_btn">
-          <Link  className=' butn_back' to={'/tours/${id}'}>Show now</Link>
+          <Link  className=' butn_back' to={`/toures/${id}`}>Show now</Link>
         </button>
       </CardBody>
       </Card>

@@ -2,9 +2,10 @@ import React from 'react';
 
 
 import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
 
 import Routes from '../../router/Routes'; 
+import Header from '../Header/Header';
+
 
 const Layout = () => {
   return (
