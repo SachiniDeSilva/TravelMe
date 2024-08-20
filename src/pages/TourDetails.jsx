@@ -81,7 +81,7 @@ const TourDetails = () => {
             </Col>
 
 <Col lg='4'>
-<Booking tour={tour}/>
+<Booking tour={tour} avgRating ={avgRating}/>
 </Col>
 
 
